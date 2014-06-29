@@ -1,6 +1,6 @@
 import numpy
 
-def obfuscated_hilbert():
+def hilbert():
     """
     Return NumPy array of shape (512, 3) containing successive coordinates
     for a third-order three-dimensional Hilbert curve.
