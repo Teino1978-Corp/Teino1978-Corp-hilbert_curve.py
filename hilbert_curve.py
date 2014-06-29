@@ -3,7 +3,7 @@ import numpy
 def obfuscated_hilbert():
     """
     Return NumPy array of shape (512, 3) containing successive coordinates
-    for an third-order three-dimensional Hilbert curve.
+    for a third-order three-dimensional Hilbert curve.
 
     """
     a,b,c=numpy.indices((8,)*3).reshape(3,-1)
